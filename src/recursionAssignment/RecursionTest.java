@@ -158,6 +158,22 @@ public class RecursionTest {
   public void TestchangePi3() {
     assertEquals("3.14", Recursion.changePi("pi"));
   }
+
+  /*
+  * Test recursive case for changePi
+  */
+  @Test
+  public void TestchangePi4() {
+    assertEquals("x3.14", Recursion.changePi("xpi"));
+  }
+
+  /*
+  * Another recursive case for changePi
+  */
+  @Test
+  public void TestchangePi5() {
+    assertEquals("3.14x", Recursion.changePi("pix"));
+  }
   
     
   /*
