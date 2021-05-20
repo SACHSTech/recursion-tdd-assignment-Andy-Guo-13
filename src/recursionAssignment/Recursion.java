@@ -67,6 +67,18 @@ public class Recursion {
   * @author: Andy Guo
   */
   public static String changePi(String str) {
+
+    // Base case: variable length 2
+    if (str.length() == 2) {
+      // If those two chars make "pi", return "3.14"
+      if (str.equals("pi")) {
+        return "3.14";
+      }
+
+      // If not, return str
+      return str;
+    }
+
     return str;
   }
 
