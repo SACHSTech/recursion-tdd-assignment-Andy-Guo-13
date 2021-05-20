@@ -131,6 +131,17 @@ public class RecursionTest {
   public void TestcountHi12() {
     assertEquals(9, Recursion.countHi("ih;asfh;oiewahf;ihae;fiha;hf;ahe;fwahe;oifha;fdh;ash;oifhwae;fha;shidfh;oiwaeihihf;ah;fdah;oiefh;iahef;oihiwe;fha;ihihe;ifhihi;aiehf;iah;eiha;efh;ahf;ih;iehfa;ihih;iefhiahhlfihiahelfihhlhaeifaleihlihfe"));
   }
+
+
+  // changePi
+
+  /*
+  * Initial test for changePi
+  */
+  @Test
+  public void TestchangePi1() {
+    assertEquals("xxx", Recursion.changePi("xxx"));
+  }
     
   /*
   @After
