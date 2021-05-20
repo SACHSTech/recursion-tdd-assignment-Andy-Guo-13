@@ -21,6 +21,17 @@ public class Recursion {
   * @author: Andy Guo
   */
   public static int countHi(String str) {
+    // Base case: variable length of 2
+    if (str.length() == 2) {
+      // If those 2 chars make "hi", return 1
+      if (str.equals("hi")) {
+        return 1;
+      }
+
+      // If they don't make "hi", return 0
+      return 0;
+    }
+
     return 0;
   }
 
