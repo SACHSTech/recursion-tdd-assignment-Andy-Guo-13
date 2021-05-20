@@ -115,6 +115,22 @@ public class RecursionTest {
   public void TestcountHi10() {
     assertEquals(0, Recursion.countHi(""));
   }
+
+  /*
+  * Longer string
+  */
+  @Test
+  public void TestcountHi11() {
+    assertEquals(6, Recursion.countHi("akhijs;kldhisjf;ekwhaljhivhhilewk;hijfkwhehi;ivh;"));
+  }
+
+  /*
+  * Even longer strings
+  */
+  @Test
+  public void TestcountHi12() {
+    assertEquals(9, Recursion.countHi("ih;asfh;oiewahf;ihae;fiha;hf;ahe;fwahe;oifha;fdh;ash;oifhwae;fha;shidfh;oiwaeihihf;ah;fdah;oiefh;iahef;oihiwe;fha;ihihe;ifhihi;aiehf;iah;eiha;efh;ahf;ih;iehfa;ihih;iefhiahhlfihiahelfihhlhaeifaleihlihfe"));
+  }
     
   /*
   @After
