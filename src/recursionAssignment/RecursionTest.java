@@ -12,33 +12,42 @@ import recursionAssignment.Recursion;
 
 public class RecursionTest{
 
-    /*
-    @Before
-    public void beforeTest(){
-      // some steps to perform before tests are run
-    }
-    */
+  /*
+  @Before
+  public void beforeTest(){
+    // some steps to perform before tests are run
+  }
+  */
+  
+  /**
+   * An initial test
+   * Testing run command
+   */
+  @Test
+  public void TestInitial() {
+    // make assertion statement(s)
+    // assertEquals(EXPECTEDVALUE, TESTVALUE);
+    // assertTrue(TESTBOOLEAN);
+    assertEquals(true, Recursion.testMethod());
+  }
     
-    /**
-     * An initial test
-     * Testing run command
-     */
-    @Test
-    public void TestInitial(){
-        // make assertion statement(s)
-        // assertEquals(EXPECTEDVALUE, TESTVALUE);
-        // assertTrue(TESTBOOLEAN);
-        assertEquals(true, Recursion.testMethod());
-    }
+  // add more tests
+
+  // countHi
+
+  /*
+  * Initial test for countHi
+  */
+
+  @Test
+  public void TestcountHi1() {
+    assertEquals(0, Recursion.countHi("xxx"));
+  }
     
-    // add more tests
-    
-    /*
-    @After
-    public void afterTest(){
-      // some steps to perform after tests are run
-    }
-    */
-    
-    
+  /*
+  @After
+  public void afterTest(){
+    // some steps to perform after tests are run
+  }
+  */    
 }
