@@ -174,6 +174,22 @@ public class RecursionTest {
   public void TestchangePi5() {
     assertEquals("3.14x", Recursion.changePi("pix"));
   }
+
+  /*
+  * Two "pi"s
+  */
+  @Test
+  public void TestchangePi6() {
+    assertEquals("3.14x3.14", Recursion.changePi("pixpi"));
+  }
+
+  /*
+  * Another test with two "pi"s
+  */
+  @Test
+  public void TestchangePi7() {
+    assertEquals("3.143.14", Recursion.changePi("pipi"));
+  }
   
     
   /*
