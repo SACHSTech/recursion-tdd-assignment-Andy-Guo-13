@@ -79,7 +79,20 @@ public class Recursion {
       return str;
     }
 
-    return str;
+    
+    // Recursive case
+
+    // Declaring variables
+    String firstTwoChar;
+
+    // Taking the first two characters of str
+    firstTwoChar = str.substring(0, 2);
+
+    if (firstTwoChar.equals("pi")) {
+      return "3.14" + changePi(str.substring(2));
+    }
+
+    return str.substring(0, 1) + changePi(str.substring(1));
   }
 
 }
