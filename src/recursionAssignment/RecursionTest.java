@@ -191,6 +191,13 @@ public class RecursionTest {
     assertEquals("3.143.14", Recursion.changePi("pipi"));
   }
   
+  /*
+  * Reversing letters in "pi"
+  */
+  @Test
+  public void TestchangePi8() {
+    assertEquals("i3.14p", Recursion.changePi("ipip"));
+  }
     
   /*
   @After
