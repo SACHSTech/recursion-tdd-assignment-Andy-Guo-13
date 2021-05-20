@@ -58,4 +58,16 @@ public class Recursion {
     return hiNumber + countHi(str.substring(1));
   }
 
+
+  /*
+  * A method changes all instances of "pi" in a string into "3.14"
+  * 
+  * @param str  The input string
+  * @return a String with all instances of "pi" changed to "3.14"
+  * @author: Andy Guo
+  */
+  public static String changePi(String str) {
+    return str;
+  }
+
 }
