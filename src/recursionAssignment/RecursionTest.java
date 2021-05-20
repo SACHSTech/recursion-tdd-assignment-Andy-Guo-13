@@ -198,6 +198,23 @@ public class RecursionTest {
   public void TestchangePi8() {
     assertEquals("i3.14p", Recursion.changePi("ipip"));
   }
+
+  /*
+  * Testing for 1 character
+  */
+  @Test
+  public void TestchangePi9() {
+    assertEquals("x", Recursion.changePi("x"));
+  }
+
+  /*
+  * Testing empty string
+  */
+  @Test
+  public void TestchangePi10() {
+    assertEquals("", Recursion.changePi(""));
+  }
+
     
   /*
   @After
