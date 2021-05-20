@@ -75,6 +75,30 @@ public class RecursionTest {
   public void TestcountHi5() {
     assertEquals(1, Recursion.countHi("hix"));
   }
+
+  /*
+  * Testing for 2 hi's
+  */
+  @Test
+  public void TestcountHi6() {
+    assertEquals(2, Recursion.countHi("hihi"));
+  }
+
+  /*
+  * More test for 2 hi's
+  */
+  @Test
+  public void TestcountHi7() {
+    assertEquals(2, Recursion.countHi("hixhi"));
+  }
+
+  /*
+  * Reversing the letters for hi
+  */
+  @Test
+  public void TestcountHi8() {
+    assertEquals(1, Recursion.countHi("ihih"));
+  }
     
   /*
   @After
