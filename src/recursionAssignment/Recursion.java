@@ -21,6 +21,11 @@ public class Recursion {
   * @author: Andy Guo
   */
   public static int countHi(String str) {
+
+    // If the number of letters are not enough to create "hi", return 0
+    if (str.length() < 2) {
+      return 0;
+    }
   
     // Base case: variable length of 2
     if (str.length() == 2) {
