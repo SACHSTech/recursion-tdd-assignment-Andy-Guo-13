@@ -10,7 +10,7 @@ import org.junit.jupiter.api.After;
 
 import recursionAssignment.Recursion;
 
-public class RecursionTest{
+public class RecursionTest {
 
   /*
   @Before
