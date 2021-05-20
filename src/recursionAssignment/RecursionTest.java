@@ -43,6 +43,22 @@ public class RecursionTest {
   public void TestcountHi1() {
     assertEquals(0, Recursion.countHi("xxx"));
   }
+
+  /*
+  * Test base case for countHi
+  */
+  @Test
+  public void TestcountHi2() {
+    assertEquals(0, Recursion.countHi("xx"));
+  }
+
+  /*
+  * Test another bae case for countHi
+  */
+  @Test
+  public void TestcountHi3() {
+    assertEquals(1, Recursion.countHi("hi"));
+  }
     
   /*
   @After
