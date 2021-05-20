@@ -33,7 +33,24 @@ public class Recursion {
       return 0;
     }
 
-    return 0;
+    // Recursive case
+
+    // Declaring variables
+    int hiNumber = 0;
+    String firstTwoChar;
+
+    // Take the first two characters in the string
+    firstTwoChar = str.substring(0, 2);
+
+    // If they are "hi", make hiNumber = 1
+    if (firstTwoChar.equals("hi")) {
+      hiNumber = 1;
+    }
+
+    // The amount of "hi"s in str is equal to:
+    // The amount of "hi"s in the first two characters PLUS
+    // The amount of "hi"s in str without the first character
+    return hiNumber + countHi(str.substring(1));
   }
 
 }
