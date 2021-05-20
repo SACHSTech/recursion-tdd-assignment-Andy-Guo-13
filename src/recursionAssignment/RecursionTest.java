@@ -99,6 +99,22 @@ public class RecursionTest {
   public void TestcountHi8() {
     assertEquals(1, Recursion.countHi("ihih"));
   }
+
+  /*
+  * Testing case where there is only 1 letters
+  */
+  @Test
+  public void Testcounthi9() {
+    assertEquals(0, Recursion.countHi("x"));
+  }
+
+  /*
+  * Testing case with empty string
+  */
+  @Test
+  public void TestcountHi10() {
+    assertEquals(0, Recursion.countHi(""));
+  }
     
   /*
   @After
