@@ -67,6 +67,11 @@ public class Recursion {
   * @author: Andy Guo
   */
   public static String changePi(String str) {
+    
+    // If str only has 1 or 0 characters, return str
+    if (str.length() < 2) {
+      return str;
+    }
 
     // Base case: variable length 2
     if (str.length() == 2) {
