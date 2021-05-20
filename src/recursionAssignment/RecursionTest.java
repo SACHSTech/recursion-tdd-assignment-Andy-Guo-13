@@ -215,6 +215,22 @@ public class RecursionTest {
     assertEquals("", Recursion.changePi(""));
   }
 
+  /*
+  * More complicated strings
+  */
+  @Test
+  public void TestchangePi11() {
+    assertEquals("akfewf3.14a;kljwefrwjw;lekjr3.14;akjef;lkjeaf3.14kajlk;kfhgkjwehfae3.14;akje;3.14;kawfe", Recursion.changePi("akfewfpia;kljwefrwjw;lekjrpi;akjef;lkjeafpikajlk;kfhgkjwehfaepi;akje;pi;kawfe"));
+  }
+
+  /*
+  * Even more complicated string
+  */
+  @Test
+  public void TestchangePi12() {
+    assertEquals("fka3.14j;slkejf;akje;akwe;ne3.14wa;fjwhaelgjhwaej3.143.14flsnv;kjanrawj3.14erjwale 3.14j;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfje3.14h h ;ihfa3.14 3;ih3.14;fh4ghaw;gih;4h;kj;alkdse4", Recursion.changePi("fkapij;slkejf;akje;akwe;nepiwa;fjwhaelgjhwaejpipiflsnv;kjanrawjpierjwale pij;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfjepih h ;ihfapi 3;ihpi;fh4ghaw;gih;4h;kj;alkdse4"));
+  }
+
     
   /*
   @After
