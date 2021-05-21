@@ -111,6 +111,11 @@ public class Recursion {
 
   public static String stringClean(String str) {
 
+    // If str is length 1 or 0, it can't have duplicate characters, so just return str
+    if (str.length() < 2) {
+      return str;
+    }
+
     // Base case: length 2
     if (str.length() == 2) {
       // If the 2 characters are the same, return one of them
