@@ -316,6 +316,22 @@ public class RecursionTest {
     assertEquals("", Recursion.stringClean(""));
   }
 
+  /*
+  * Testing longer strings
+  */
+  @Test
+  public void TeststringClean11() {
+    assertEquals("abejfjfjejejcjcjcejejef", Recursion.stringClean("aabbejfjfjjjejjeeejcjcjjcejjejef"));
+  }
+
+  /*
+  * Even longer strings
+  */
+  @Test
+  public void TeststringClean12() {
+    assertEquals("djdjdjdjejejejcjcsdldlelelelclckckdke;gjgj3i3i3icmcmemsmcmememcmcmekekdks", Recursion.stringClean("ddjdjdjdjjjjejejjjejjjcjjjcccccccssdlddllleleeelellclckckdkke;;;gjgj3i3i3icmcmmemmsmcmmmememcmcmekeekkdks"));
+  }
+
 
   /*
   @After
