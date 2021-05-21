@@ -100,4 +100,17 @@ public class Recursion {
     return str.substring(0, 1) + changePi(str.substring(1));
   }
 
+
+  /*
+  * A method changes all instances of two of the same chars gets reduced to 1
+  * 
+  * @param str  The input string
+  * @return a String that is "cleaned" where all instances of 2 of the same char gets reduced to 1
+  * @author: Andy Guo
+  */
+
+  public static String stringClean(String str) {
+    return str;
+  }
+
 }
