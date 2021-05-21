@@ -284,7 +284,21 @@ public class RecursionTest {
     assertEquals("x", Recursion.stringClean("xxx"));
   }
 
+  /*
+  * Testing 2 sets of pairs
+  */
+  @Test
+  public void TeststringClean7() {
+    assertEquals("xyx", Recursion.stringClean("xxyxx"));
+  }
 
+  /*
+  * Another test for 2 sets of pairs
+  */
+  @Test
+  public void TeststringClean8() {
+    assertEquals("xy", Recursion.stringClean("xxyy"));
+  }  
 
 
   /*
