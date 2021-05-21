@@ -110,6 +110,18 @@ public class Recursion {
   */
 
   public static String stringClean(String str) {
+
+    // Base case: length 2
+    if (str.length() == 2) {
+      // If the 2 characters are the same, return one of them
+      if (str.substring(0, 1).equals(str.substring(1))) {
+        return str.substring(1);
+      }
+      
+      // If not, return str
+      return str;
+    }
+
     return str;
   }
 
