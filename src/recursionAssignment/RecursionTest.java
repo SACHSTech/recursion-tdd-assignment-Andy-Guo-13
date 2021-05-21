@@ -298,7 +298,23 @@ public class RecursionTest {
   @Test
   public void TeststringClean8() {
     assertEquals("xy", Recursion.stringClean("xxyy"));
+  }
+
+  /*
+  * Testing 1 character
+  */
+  @Test
+  public void TeststringClean9() {
+    assertEquals("x", Recursion.stringClean("x"));
   }  
+
+  /*
+  * Testing empty string
+  */
+  @Test
+  public void TeststringClean10() {
+    assertEquals("", Recursion.stringClean(""));
+  }
 
 
   /*
