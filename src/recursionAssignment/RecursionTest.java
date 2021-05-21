@@ -132,6 +132,14 @@ public class RecursionTest {
     assertEquals(9, Recursion.countHi("ih;asfh;oiewahf;ihae;fiha;hf;ahe;fwahe;oifha;fdh;ash;oifhwae;fha;shidfh;oiwaeihihf;ah;fdah;oiefh;iahef;oihiwe;fha;ihihe;ifhihi;aiehf;iah;eiha;efh;ahf;ih;iehfa;ihih;iefhiahhlfihiahelfihhlhaeifaleihlihfe"));
   }
 
+  /*
+  * Testing case sensitivity
+  */
+  @Test
+  public void TestcountHi13() {
+    assertEquals(6, Recursion.countHi("hihiHIHIhIhihiihihIHihi"));
+  }
+
 
 
   // changePi
@@ -230,6 +238,14 @@ public class RecursionTest {
   @Test
   public void TestchangePi12() {
     assertEquals("fka3.14j;slkejf;akje;akwe;ne3.14wa;fjwhaelgjhwaej3.143.14flsnv;kjanrawj3.14erjwale 3.14j;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfje3.14h h ;ihfa3.14 3;ih3.14;fh4ghaw;gih;4h;kj;alkdse4", Recursion.changePi("fkapij;slkejf;akje;akwe;nepiwa;fjwhaelgjhwaejpipiflsnv;kjanrawjpierjwale pij;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfjepih h ;ihfapi 3;ihpi;fh4ghaw;gih;4h;kj;alkdse4"));
+  }
+
+  /*
+  * Testing case sensitivity
+  */
+  @Test
+  public void TestchangePi13() {
+    assertEquals("Pi3.143.14pIPIPi3.14", Recursion.changePi("PipipipIPIPipi"));
   }
 
 
@@ -331,6 +347,15 @@ public class RecursionTest {
   public void TeststringClean12() {
     assertEquals("djdjdjdjejejejcjcsdldlelelelclckckdke;gjgj3i3i3icmcmemsmcmememcmcmekekdks", Recursion.stringClean("ddjdjdjdjjjjejejjjejjjcjjjcccccccssdlddllleleeelellclckckdkke;;;gjgj3i3i3icmcmmemmsmcmmmememcmcmekeekkdks"));
   }
+
+  /*
+  * Testing case sensitivity
+  */
+  @Test
+  public void TeststringClean13() {
+    assertEquals("YyYyYyYy", Recursion.stringClean("YyYyyyYYyYYyyy"));
+  }
+
 
 
   /*
