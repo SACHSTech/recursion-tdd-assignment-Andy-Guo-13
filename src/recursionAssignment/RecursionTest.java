@@ -30,7 +30,8 @@ public class RecursionTest {
     // assertTrue(TESTBOOLEAN);
     assertEquals(true, Recursion.testMethod());
   }
-    
+
+
   // add more tests
 
   // countHi
@@ -38,7 +39,6 @@ public class RecursionTest {
   /*
   * Initial test for countHi
   */
-
   @Test
   public void TestcountHi1() {
     assertEquals(0, Recursion.countHi("xxx"));
@@ -131,6 +131,7 @@ public class RecursionTest {
   public void TestcountHi12() {
     assertEquals(9, Recursion.countHi("ih;asfh;oiewahf;ihae;fiha;hf;ahe;fwahe;oifha;fdh;ash;oifhwae;fha;shidfh;oiwaeihihf;ah;fdah;oiefh;iahef;oihiwe;fha;ihihe;ifhihi;aiehf;iah;eiha;efh;ahf;ih;iehfa;ihih;iefhiahhlfihiahelfihhlhaeifaleihlihfe"));
   }
+
 
 
   // changePi
@@ -231,7 +232,20 @@ public class RecursionTest {
     assertEquals("fka3.14j;slkejf;akje;akwe;ne3.14wa;fjwhaelgjhwaej3.143.14flsnv;kjanrawj3.14erjwale 3.14j;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfje3.14h h ;ihfa3.14 3;ih3.14;fh4ghaw;gih;4h;kj;alkdse4", Recursion.changePi("fkapij;slkejf;akje;akwe;nepiwa;fjwhaelgjhwaejpipiflsnv;kjanrawjpierjwale pij;iae;o ih2;3oir y2toi ;3 ha;3wh ;gaj3;hrfjepih h ;ihfapi 3;ihpi;fh4ghaw;gih;4h;kj;alkdse4"));
   }
 
-    
+
+
+  // stringClean
+
+  /*
+  * Initial test for stringClean
+  */
+  @Test
+  public void TeststringClean1() {
+    assertEquals("xyz", Recursion.stringClean("xyz"));
+  }
+
+
+
   /*
   @After
   public void afterTest(){
