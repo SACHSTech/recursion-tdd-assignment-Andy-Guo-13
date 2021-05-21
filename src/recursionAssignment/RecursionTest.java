@@ -244,6 +244,22 @@ public class RecursionTest {
     assertEquals("xyz", Recursion.stringClean("xyz"));
   }
 
+  /*
+  * Test base case for stringClean
+  */
+  @Test
+  public void TeststringClean2() {
+    assertEquals("xy", Recursion.stringClean("xy"));
+  }
+
+  /*
+  * Different base csae test
+  */
+  @Test
+  public void TeststringClean3() {
+    assertEquals("x", Recursion.stringClean("xx"));
+  }
+
 
 
   /*
