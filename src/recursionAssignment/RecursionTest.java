@@ -260,6 +260,21 @@ public class RecursionTest {
     assertEquals("x", Recursion.stringClean("xx"));
   }
 
+  /*
+  * Recursive test for stringClean
+  */
+  @Test
+  public void TeststringClean4() {
+    assertEquals("xy", Recursion.stringClean("xxy"));
+  }
+
+  /*
+  * Another recursive test for stringClean
+  */
+  @Test
+  public void TeststringClean5() {
+    assertEquals("yx", Recursion.stringClean("yxx"));
+  }
 
 
   /*
