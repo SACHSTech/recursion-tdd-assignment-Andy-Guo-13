@@ -276,6 +276,16 @@ public class RecursionTest {
     assertEquals("yx", Recursion.stringClean("yxx"));
   }
 
+  /*
+  * Three of a kind test
+  */
+  @Test
+  public void TeststringClean6() {
+    assertEquals("x", Recursion.stringClean("xxx"));
+  }
+
+
+
 
   /*
   @After
