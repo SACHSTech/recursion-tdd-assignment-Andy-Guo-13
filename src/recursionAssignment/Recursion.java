@@ -117,12 +117,27 @@ public class Recursion {
       if (str.substring(0, 1).equals(str.substring(1))) {
         return str.substring(1);
       }
-      
+
       // If not, return str
       return str;
     }
 
-    return str;
+    // Recursive case
+
+    // Declaring variables
+    String firstChar;
+    String secondChar;
+
+    // Initializing variables
+    firstChar = str.substring(0, 1);
+    secondChar = str.substring(1, 2);
+
+    // If they are equals, remove the first char; if not, return the whole String
+    if (firstChar.equals(secondChar)) {
+      return stringClean(str.substring(1));
+    }
+
+    return firstChar + stringClean(str.substring(1));
   }
 
 }
